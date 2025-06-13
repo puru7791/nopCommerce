@@ -9,7 +9,7 @@ trigger:
 pool: 
  name: 'my-self-hosted'
  demands:
-  - agent.name -equals myagent-01
+  - agent.name -equals mywinagent-01
 
 variables:
   solution: '**/NopCommerce.sln'
